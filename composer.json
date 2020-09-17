@@ -1,0 +1,24 @@
+{
+    "name": "nzo/honeypot-bundle",
+    "type": "symfony-bundle",
+    "description": "Honeypot solution for Symfony forms.",
+    "keywords": ["honeypot", "spam", "form"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ala Eddine Khefifi",
+            "email": "alakhefifi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "symfony/form": "^5.0",
+        "symfony/framework-bundle": "^5.0",
+        "symfony/validator": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nzo\\HoneypotBundle\\": ""
+        }
+    }
+}
