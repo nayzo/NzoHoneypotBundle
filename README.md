@@ -1,6 +1,6 @@
 # NzoHoneypotBundle
 
-A Symfony bundle that provides a very simple invisible Honeypot form type.
+A Symfony bundle that provides a very simple way to handle Honeypot form types.
 
 ## Prerequisites
 This version of the bundle requires Symfony  +5.0
