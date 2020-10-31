@@ -1,22 +1,26 @@
-# NzoHoneypotBundle
+NzoHoneypotBundle
+=================
 
-A Symfony bundle that provides a very simple way to handle Honeypot form types.
+[![Build Status](https://travis-ci.org/nayzo/NzoHoneypotBundle.svg?branch=master)](https://travis-ci.org/nayzo/NzoHoneypotBundle)
+[![Latest Stable Version](https://poser.pugx.org/nzo/honeypot-bundle/v/stable)](https://packagist.org/packages/nzo/honeypot-bundle)
 
-## Prerequisites
-This version of the bundle requires Symfony  +5.0
+The **NzoHoneypotBundle** is a Symfony bundle that provides a very simple way to handle Honeypot form types.
 
-## Installation
+###### This Bundle is compatible with **Symfony >= 4.4**
 
-```bash
+Installation
+------------
+
+### Through Composer:
+
+```
 $ composer require nzo/honeypot-bundle
 ```
     
-## Usage
+Usage
+-----
 
-Once installed and configured you can start using `Nzo\HoneypotBundle\Form\Type\HoneypotType`
-form type in your forms.
-
-### Basic usage example:
+#### Basic usage example in the Form:
 
 ```php
 <?php
@@ -37,6 +41,9 @@ class FooType extends AbstractType
     }
 }
 ```
+
+License
+-------
 
 This bundle is under the MIT license. See the complete license in the bundle:
 
