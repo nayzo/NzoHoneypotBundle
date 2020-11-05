@@ -1,11 +1,11 @@
 <?php
 
-namespace Nzo\S3AwsBundle\Tests;
+namespace Nzo\HoneypotBundle\Tests;
 
-/*
- * This file is part of the NzoLeftSidebarBundle package.
+/**
+ * This file is part of the NzoHoneypotBundle package.
  *
- * (c) Ala Eddine Khefifi <NzoS3AwsBundle@gmail.com>
+ * (c) Ala Eddine Khefifi <alakhefifi@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -13,7 +13,7 @@ namespace Nzo\S3AwsBundle\Tests;
 
 class NzoHoneypotTest extends \PHPUnit_Framework_TestCase
 {
-    public function testLoadDefault()
+    public function testDefault()
     {
     }
 }
